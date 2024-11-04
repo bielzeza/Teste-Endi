@@ -1,0 +1,53 @@
+h4 {
+    color: white;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("images/fundoRAMIlogin.jpg");
+    background-color: #041911
+    ;
+}
+
+form {
+    background-color: #1F372D;
+    width: 300px;
+    padding: 16px;
+    border-radius: 8px;
+
+}
+
+button {
+    cursor: pointer;
+}
+
+.Primarybutton:hover {
+    background-color: #BFFEE5;
+}
+
+input, button {
+    width: -webkit-fill-available;
+    padding: 8px;
+    margin-bottom: 8px;
+    border-color: transparent;
+    border-radius: 4px;
+}
+
+.Textbutton {
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+
+.Primarybutton {
+    background-color: #60FABC;
+    border: none;
+}
+
+.Outlinedbutton {
+    background-color: transparent;
+    border: #041911;
+}
